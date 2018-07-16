@@ -1,0 +1,8 @@
+version: "3"
+services:
+  service:
+    build:
+      context: .
+      args:
+        - REACT_VERSION
+    container_name: docker-build-args-example-service
